@@ -31,7 +31,7 @@ speechBtn.addEventListener("click", e =>{
             setInterval(()=>{
                 if(!synth.speaking && !isSpeaking){
                     isSpeaking = true;
-                    speechBtn.innerText = "Convert To Speech";
+                    speechBtn.innerText = "Converter Audio";
                 }else{
                 }
             }, 500);
