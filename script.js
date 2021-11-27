@@ -45,7 +45,7 @@ speechBtn.addEventListener("click", e =>{
                 speechBtn.innerText = "Resume Speech";
             }
         }else{
-            speechBtn.innerText = "Convert To Speech";
+            speechBtn.innerText = "Converter Audio";
         }
     }
 });
