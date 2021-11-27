@@ -38,11 +38,11 @@ speechBtn.addEventListener("click", e =>{
             if(isSpeaking){
                 synth.resume();
                 isSpeaking = false;
-                speechBtn.innerText = "Pause Speech";
+                speechBtn.innerText = "Pausar Audio";
             }else{
                 synth.pause();
                 isSpeaking = true;
-                speechBtn.innerText = "Resume Speech";
+                speechBtn.innerText = "Retomar Audio";
             }
         }else{
             speechBtn.innerText = "Converter Audio";
